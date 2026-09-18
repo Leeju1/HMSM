@@ -1,6 +1,6 @@
 # HMSM
 
-Code for the CD Tally and Lamp Return analyses. Run all commands from the directory containing this README.
+Code for Modeling Transition Dynamics and Network Structure in Cross-National Process Data: A Hierarchical Multi-State Survival Framework. Run all commands from the directory containing this README.
 
 ## Repository structure
 
