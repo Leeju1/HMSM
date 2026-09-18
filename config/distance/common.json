@@ -1,0 +1,32 @@
+{
+  "p": 1,
+  "hpd_mass": 0.95,
+  "expected_graphs": 28,
+  "expected_draws": 10000,
+  "save_individual": true,
+  "progress_every": 100,
+  "countries": [
+    "AT",
+    "BE",
+    "DE",
+    "DK",
+    "EE",
+    "FI",
+    "GB",
+    "IE",
+    "KR",
+    "NL",
+    "NO",
+    "PL",
+    "SK",
+    "US"
+  ],
+  "seed": 42,
+  "atol": 1e-08,
+  "country_blocks": true,
+  "n_perm_unrestricted": 9999,
+  "nmds_try": 20,
+  "nmds_trymax": 100,
+  "nmds_maxit": 1000,
+  "diagnostic_plots": false
+}

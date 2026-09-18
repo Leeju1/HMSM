@@ -1,0 +1,8 @@
+{
+  "dataset": "cdtally",
+  "emb_dir": "outputs/cdtally/embedding/draws",
+  "out_dir": "outputs/cdtally/distance",
+  "distance_file": "outputs/cdtally/distance/posterior_mean.csv",
+  "analysis_dir": "outputs/cdtally/distance/analysis",
+  "expected_nodes": 52
+}

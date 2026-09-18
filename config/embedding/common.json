@@ -1,0 +1,69 @@
+{
+  "seed": 42,
+  "num_threads": 1,
+  "device": "cpu",
+  "dropout": 0.0,
+  "lr": 0.01,
+  "weight_decay": 0.0,
+  "expected_graphs": 28,
+  "expected_draws": 10000,
+  "eval_every": 5,
+  "pm_filename": "posterior_mean.csv",
+  "countries": [
+    "AT",
+    "BE",
+    "DE",
+    "DK",
+    "EE",
+    "FI",
+    "GB",
+    "IE",
+    "KR",
+    "NL",
+    "NO",
+    "PL",
+    "SK",
+    "US"
+  ],
+  "ndcg_k": [
+    3,
+    5
+  ],
+  "grid": {
+    "alpha_grid": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0
+    ],
+    "beta_grid": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0
+    ],
+    "k_folds": 5,
+    "eval_interval": 5
+  },
+  "epoch_cv": {
+    "budget_epochs": 1000,
+    "cv_folds": 4,
+    "cv_repeats": 3,
+    "eval_every": 5
+  },
+  "diagnostic_plots": false
+}

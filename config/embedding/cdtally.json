@@ -1,0 +1,40 @@
+{
+  "dataset": "cdtally",
+  "N": 52,
+  "hidden_dim": 32,
+  "out_dim": 16,
+  "alpha": 0.6,
+  "beta": 0.1,
+  "final_epochs": 210,
+  "epoch_selection": "fixed; paper value is the repeated-CV mean validation-loss argmin",
+  "pm_dir": "outputs/cdtally/graphs/posterior_mean",
+  "graphs_dir": "outputs/cdtally/graphs/draws",
+  "model_dir": "outputs/cdtally/embedding/model",
+  "emb_dir": "outputs/cdtally/embedding/draws",
+  "validation_dir": "outputs/cdtally/embedding/validation",
+  "tuning_dir": "outputs/cdtally/embedding/tuning",
+  "grid": {
+    "d_grid": [
+      8,
+      16,
+      32
+    ],
+    "per_d_config": {
+      "8": {
+        "hidden_dim": 16,
+        "lr": 0.01,
+        "epochs": 1000
+      },
+      "16": {
+        "hidden_dim": 32,
+        "lr": 0.01,
+        "epochs": 600
+      },
+      "32": {
+        "hidden_dim": 64,
+        "lr": 0.01,
+        "epochs": 800
+      }
+    }
+  }
+}

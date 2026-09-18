@@ -1,0 +1,15 @@
+/outputs/
+/tests/
+/test run/
+/embedding/정리전코드/
+/embedding/수정전코드/
+/distance/정리전코드/
+/distance/수정전코드/
+/mcmc/정리 전 코드/
+/ame/정리전 코드/
+/ame/정리초안/
+/config/embedding/local.*.json
+__pycache__/
+*.py[cod]
+.venv/
+.venv_*/

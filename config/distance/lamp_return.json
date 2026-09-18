@@ -1,0 +1,8 @@
+{
+  "dataset": "lamp_return",
+  "emb_dir": "outputs/lamp_return/embedding/draws",
+  "out_dir": "outputs/lamp_return/distance",
+  "distance_file": "outputs/lamp_return/distance/posterior_mean.csv",
+  "analysis_dir": "outputs/lamp_return/distance/analysis",
+  "expected_nodes": 126
+}
